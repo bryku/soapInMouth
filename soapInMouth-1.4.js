@@ -166,11 +166,11 @@ function generateRegex(arr){
 	return arr.map((v)=>{
 		var str = v.replace(/o|0/gmi,'[o0]+')
 		     .replace(/i|1|!/gmi,'[i1!]+')
-			 .replace(/u|a/gmi,'[ua]+')
-			 .replace(/e|3/gmi,'[e3]+')
-			 .replace(/b|8/gmi,'[b8]+')
-			 .replace(/s|5/gmi,'[s5]+');
-			str = splitStringMergeSubString(str,'[','+').map((v)=>{return v+"\\s*"}).join('');
+		     .replace(/u|a/gmi,'[ua]+')
+		     .replace(/e|3/gmi,'[e3]+')
+		     .replace(/b|8/gmi,'[b8]+')
+		     .replace(/s|5/gmi,'[s5]+');
+		str = splitStringMergeSubString(str,'[','+').map((v)=>{return v+"\\s*"}).join('');
 		return new RegExp('('+str+')+','gmi')
 	});
 }
