@@ -162,7 +162,6 @@ function splitStringMergeSubString(s,a,b){
 	}
 	return arr.filter((v)=>{if(v.length < 1){return false}return true})
 }
-// modifies blacklist into regex
 function generateRegex(arr){
 	return arr.map((v)=>{
 		var str = v.replace(/o|0/gmi,'[o0]+')
