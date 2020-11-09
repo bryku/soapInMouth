@@ -8,7 +8,7 @@ Versions:
 
 You don't have to include single character variations into the blacklist.
 
-Example: nigga, n1gga, ni gg a
+Example: dick, d1ck, di c k
 
 The generater will automatically take those into account.
 
