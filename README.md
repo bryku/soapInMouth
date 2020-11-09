@@ -1,7 +1,7 @@
 # soapInMouth
 NodeJs Bad Word Filter. It comes with its own blacklist, but you can add, remove, or modify it to fit your uses.
 
-dates: 
+Versions: 
 
 *	1.0: 2020-10-17
 * 1.4: 2020-11-08
