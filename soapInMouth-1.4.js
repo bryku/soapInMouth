@@ -1,17 +1,3 @@
-/*
-	author(s): bryku / drburnett
-	date: 
-		1.0: 2020-10-17
-		1.4: 2020-11-08
-
-	You don't have to include single character variations.
-	Example: nigga, n1gga
-
-	The generater will automatically take those into account.
-	However you will need to add double character variations.
-		
-	Example: nigga, nigger, nig ger
-*/
 var blacklist = [
 	'anal',
 	'anilingus',
