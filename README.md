@@ -10,5 +10,5 @@ Soap uses a generator to automatically include alternate spellings and spaces.
 ```
 Input: where did that little shit go?       Output: where did that little **** go?
 Input: where did that little sh!t go?       Output: where did that little **** go?
-Input: where did that little shi t go?       Output: where did that little ***** go?
+Input: where did that little shi t go?      Output: where did that little ***** go?
 ```
